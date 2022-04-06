@@ -12,7 +12,7 @@ def main():
     q3 = 10e-9
     p1 = np.array([3,2,-1])
     p2 = np.array([-1,-1,4])
-    p3 = np.array([0,3,1])
+    p3 = np.array([0,4,1])
     k = 9e9
     
     ###########No modificar a partir de aqui amenos que sepas lo que haces XD
@@ -38,6 +38,7 @@ def main():
     {np.format_float_scientific(E[1], precision = 4, exp_digits=2)} Ay
     {np.format_float_scientific(E[2], precision = 4, exp_digits=2)} Az
     """)
+    print(E[2])
 
 
 if __name__ == "__main__":
